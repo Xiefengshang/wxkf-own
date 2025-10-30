@@ -23,7 +23,10 @@ OPENAI_MODEL="gpt-4.1-mini"
 OPENAI_TIMEOUT=30000
 # OPENAI_ORGANIZATION=org-your-org-id
 # OPENAI_PROJECT=proj-your-project-id
-
+# 用于控制Token的参数名, 例如: "max_tokens" 或 "max_completions_token"
+OPENAI_TOKEN_PARAM_NAME="max_tokens"
+# Token的具体数值
+OPENAI_MAX_TOKENS=65536
 # 系统提示词配置
 SYSTEM_PROMPT="your are helpful assistant, reply in chinese, and reply in plain text format, text length should be less than 10240 characters" 
 
